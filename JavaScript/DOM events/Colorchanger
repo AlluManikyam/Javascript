@@ -1,0 +1,23 @@
+<html>
+<body>
+<button>click me</button>
+</body>
+</html>
+<script>
+var butt = document.querySelector("button");
+var bgcolor = document.querySelector("body");
+
+butt.addEventListener("click", changeColor);
+
+function changeColor()
+{
+   if(bgcolor.style.background== "white")
+  {
+    bgcolor.style.background = "purple";
+  }
+  else
+  {
+    bgcolor.style.background="white";
+  }
+};
+</script>

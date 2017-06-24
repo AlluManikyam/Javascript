@@ -1,0 +1,35 @@
+<html>
+<body>
+<button>CLICK ME</button>
+<ul>
+	<li id='list1'>List Item 1</li>
+	<li id="list2">List Item 2</li>
+	<li id="list3">List Item 3</li>
+	<li id="list4">List Item 4</li>
+	<li id="list5">List Item 5</li>
+	<li id="list6">List Item 6</li>
+	<li id="list7">List Item 7</li>
+</ul>
+</body>
+</html>
+<script>
+var button = document.querySelector("button");
+button.addEventListener("click",rainbowColor);
+var color1=document.getElementById("list1");
+var color2=document.getElementById("list2");
+var color3=document.getElementById("list3");
+var color4=document.getElementById("list4");
+var color5=document.getElementById("list5");
+var color6=document.getElementById("list6");
+var color7=document.getElementById("list7");
+function rainbowColor()
+{
+color1.style.background = "red";
+color2.style background = "orange";
+color3.style.background = "yellow";
+color4.style.background = "green";
+color5.style.background = "blue";
+color6.style.background = "indigo";
+color7.style.background = "violet";
+};
+</script>
